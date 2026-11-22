@@ -1,0 +1,16 @@
+Test Accuracy: 50.84%
+
+                   precision    recall  f1-score   support
+
+            clean       0.19      0.22      0.20        37
+     defocus_blur       0.21      0.24      0.23        38
+       dirty_lens       0.28      0.30      0.29        37
+              fog       0.95      0.95      0.95        37
+      motion_blur       0.20      0.14      0.16        37
+     overexposure       0.92      0.95      0.93        37
+partial_occlusion       0.35      0.35      0.35        37
+             rain       0.97      0.95      0.96        37
+
+         accuracy                           0.51       297
+        macro avg       0.51      0.51      0.51       297
+     weighted avg       0.51      0.51      0.51       297

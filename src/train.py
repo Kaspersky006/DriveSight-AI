@@ -14,7 +14,7 @@ from model import CameraConditionCNN
 # -----------------------------
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-EPOCHS = 8
+EPOCHS = 15
 LEARNING_RATE = 0.0005
 
 MODEL_SAVE_PATH = Path("outputs/models/best_model.pth")
